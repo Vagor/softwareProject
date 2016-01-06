@@ -1,0 +1,91 @@
+.main-page {
+  margin-top: 50px;
+}
+
+.sidebar {
+  height: 500px;
+  background-color: #ccc;
+}
+.content {
+  height: 500px;
+  background-color: #eee;
+}
+.personal-info {
+  margin-top: 20px;
+}
+.personal-info-r {
+  margin-top: -3px;
+  display: inline-block;
+}
+.nav {
+  margin-top: 20px;
+}
+
+.avatar {
+  margin: 0px 5px;
+  vertical-align: top;
+}
+.name {
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.ct-weekly {
+  text-align: center;
+}
+.course-title {
+  text-align: center;
+}
+.ct-weekly table th,
+.ct-weekly table td {
+  text-align: center;
+}
+.ct-weekly table th {
+  font-weight: bolder;
+  font-size: 16px;
+}
+
+
+.ct-yearly table th,
+.ct-yearly table td {
+  text-align: center;
+}
+.ct-yearly table th {
+  font-weight: bolder;
+  font-size: 16px;
+}
+
+.pi-box .input-group {
+  margin: 20px 0;
+}
+.pi-box .input-group:first-child {
+  margin-top: 60px;
+}
+
+.pi-box {
+  width: 80%;
+  margin: 0 auto;
+}
+.pi-box .btn-group-justified {
+  margin-top: 50px;
+}
+
+.downloads h2 {
+  display: inline-block;
+}
+.downloads .input-group {
+  margin:20px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+

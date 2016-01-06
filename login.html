@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<script type="text/javascript" src="./js/rem.js"></script>
+<link href="./css/login2.css" rel="stylesheet" type="text/css">
+<link data-turbolinks-track="true" href="./css/login.css" media="all" rel="stylesheet">
+<link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap.min.css">
+<script src="http://cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>
+<script src="http://cdn.bootcss.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/signin.js"></script>
+</head>
+<body class="">
+  <div class="top-section">
+    <header>
+      <div class="headerOne primary">
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-12 col-sm-3 col-md-3 col-lg-4 logo pull-left logo-enc">
+              <a href="./things/The Ultimate Startup Launch Plan _ Edison.html">
+              <a href="http://eic.hust.edu.cn/"><img alt="Logo" class="logo-img" src="./images/login-logo.png"/></a>
+              </a>
+            </div>
+              <nav class="col-xs-12 col-sm-9 col-md-9  col-lg-8 pull-right navigation-enc">
+                <ul class="navigation">
+                  <li><a href="./signin.html">注册</a></li>
+                  <li><a href="#" data-toggle="modal" data-target="#aboutsys">了解系统</a></li>
+                  <li><a href="http://eic.hust.edu.cn/">@电信学院</a></li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </header>
+      <div class="caption-enc">
+        <div class="container text-center">
+          <div class="row">
+            <div class="caption-inner col-xs-8 col-xs-offset-2">
+              <h2 class="main-caption">电信学院<strong>课程</strong>综合系统</h2>
+              <h4 class="sub-caption">便捷的教师、学生课程综合系统</h4>
+            </div>
+            <div class="row ">
+              <div class="col-md-4"></div>
+              <div class="col-md-4">
+                <form accept-charset="UTF-8" action="./php/login4server.php" class="new_user" id="new_user" method="post">
+                    <input name="username" value="" class="normal-input" placeholder="" style="margin-bottom: 10px;">
+                    <input name="password" value="" class="normal-input" placeholder="" type="password" style="margin-bottom: 10px;">
+                    <input class="btn user-sign signup-btn" name="commit" type="submit" value="登陆" />
+                </form>
+              </div>
+              <div class="col-md-4"></div>
+            </div>
+
+
+            <div class="row">
+              <div class="col-md-1"></div>
+              <div class="col-md-10">
+                <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                </div>
+              </div>
+              <div class="col-md-1"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 了解系统Modal -->
+      <div class="modal fade" id="aboutsys" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close" ><span aria-hidden="true">&times;</span></button>
+              <h4 class="modal-title" id="myModalLabel">了解系统</h4>
+            </div>
+            <div class="modal-body">
+              <p>电信学院课程综合系统怎么怎么好！电信学院课程综合系统怎么怎么好！电信学院课程综合系统怎么怎么好！电信学院课程综合系统怎么怎么好！电信学院课程综合系统怎么怎么好！电信学院课程综合系统怎么怎么好！电信学院课程综合系统怎么怎么好！电信学院课程综合系统怎么怎么好！</p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-primary" data-dismiss="modal">好的</button>
+            </div>
+          </div>
+        </div>
+      </div><!-- 了解系统Modal -->
+    </body>
+  </html>
