@@ -40,8 +40,6 @@ $password = $teacher_info_arr['password'];
   <title>电信学院课程综合系统</title>
 </head>
 
-
-
 <body>
   <div class="container-fluid main-page">
     <div class="col-xs-3 .col-sm-3 .col-md-1 sidebar">
@@ -76,14 +74,10 @@ $password = $teacher_info_arr['password'];
               </tr>
             </thead>
             <tbody>
-
-
-
             <?php
 
               $courses = mysql_query("SELECT * FROM courses WHERE courseteacherId='$teacherId'");
               $courses_count = mysql_num_rows($courses);
-
 
               for ($i=0; $i < $courses_count ; $i++) {
                   $courses_arr = mysql_fetch_assoc($courses);
@@ -94,10 +88,9 @@ $password = $teacher_info_arr['password'];
                   $courseclass = $courses_arr['courseclass'];
                   $courseweek = $courses_arr['courseweek'];
 
-
                   echo "<tr><td>$coursename</td><td>$coursetime</td><td>$courseclassroom</td><td>$courseweek</td><td>$courseclass</td><td><a href='editcourse.php?id=$courseid'>修改</a> <a href='php/delcourse4server.php?id=$courseid'>删除</a><input type='file' value='上传课件'></td></tr>";
               }
-              ?>
+            ?>
             </tbody>
           </table>
         </div>

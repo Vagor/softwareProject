@@ -29,7 +29,13 @@ header('Content-type: text/html;charset=utf-8');
 		header('location:../teacher.php');
 
     exit;
+	} else if(($username == 'admin' ) && ($password == 'admin')){
+    //登录成功
+		header('location:http://localhost:8080/phpmyadmin/#PMAURL-1:db_structure.php?db=softwareProject&table=&server=1&target=&token=c974f607f0dbb43e75ccca0cadb9befc');
+
+    exit;
 	}
+
 	else {
 	    header('location:../404.html');
 	}
